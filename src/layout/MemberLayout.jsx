@@ -2,7 +2,7 @@ import { useContext, useEffect } from "react";
 import { Link, Outlet, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { UserContext } from "../components/userprovider";
-
+import Footer from "../components/Footer";
 
 const api_Path = 'https://web-project-api-zo40.onrender.com';
 
@@ -57,6 +57,7 @@ export default function MemberLayout() {
         </div>
       </nav>
       <Outlet></Outlet>
+      <Footer></Footer>
     </div>
   );
 }

@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="col-6">
             <div className="d-flex align-items-stretch">
               <img
-                  src="/logo.png"
+                  src="/public/logo.png"
                   alt="Quality Time Logo"
                 />
               <div className="ms-5 d-flex flex-column justify-content-between text-white">
