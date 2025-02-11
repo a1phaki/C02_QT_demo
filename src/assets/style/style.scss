@@ -43,3 +43,22 @@
   -webkit-tap-highlight-color: transparent; /* 移除點擊時的高亮效果 */
 }
 
+  .slot-available {
+  background-color: #d4edda;
+  color: #155724;
+  }
+
+  .slot-selected {
+  background-color: #f8d7da;
+  color: #721c24;
+  }
+  .fc-daygrid-event {
+    margin: 0; /* 移除事件之間的外邊距 */
+    padding: 0; /* 移除事件內部填充 */
+  }
+  .fc-daygrid-event-harness {
+    margin: 0; /* 確保容器也沒有空隙 */
+  }
+  .fc-event-time {
+    display: none;
+  }
