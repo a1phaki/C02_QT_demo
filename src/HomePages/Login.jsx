@@ -27,9 +27,9 @@ export default function Login(){
             const res = await axios.get(`${api_Path}/login/check`);
             alert('登入成功，即將跳轉頁面');
             if(res.data.user.user==='admin'){
-                navigate('/admin');
+                navigate('/admin/orders');
             }else{
-                navigate('/member/center');
+                navigate('/member/center/data');
             }
         } catch (error) {
             alert(error.response.data.message);

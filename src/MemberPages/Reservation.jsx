@@ -133,7 +133,7 @@ export default function Reservation(){
     
             alert('預約成功');
             alert(`${reservationData.name} 您已成功預約 ${reservationData.date} ${reservationData.timeSlot} 的服務`);
-            navigate('/member/center')
+            navigate('/member/center/orders')
         } catch (error) {
             console.error(error.response);
             alert(error.response.data.message);
